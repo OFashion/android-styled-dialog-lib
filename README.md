@@ -1,5 +1,5 @@
 # StyledDialogs for Android
-
+rebuild
 ## 这个开源包是基于[avast/android-styled-dialogs](https://github.com/avast/android-styled-dialogs/tree/holo) 写的。其实它们的内容几乎是一样的，除了修改了某些默认颜色以及修改了最低兼容版本到4.0.3。为了更好地融入到[OFashion官方Android版 ](http://www.wandoujia.com/apps/com.rosevision.ofashion)，我们直接修改了某些颜色，然后重新建立一个项目上传到这里。具体使用请参考Demo
 
 This library makes styling and using dialogs _a piece of cake_.
