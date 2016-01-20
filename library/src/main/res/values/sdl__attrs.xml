@@ -8,19 +8,19 @@
 	</declare-styleable>
 
 	<declare-styleable name="DialogStyle">
-		<attr name="dialogBackground" format="reference" />
-		<attr name="titleTextColor" format="color|reference" />
-		<attr name="titleSeparatorColor" format="color|reference" />
-		<attr name="messageTextColor" format="color|reference" />
-		<attr name="buttonTextColor" format="color|reference" />
-		<attr name="buttonSeparatorColor" format="color|reference" />
-		<attr name="buttonBackgroundColorNormal" format="color|reference" />
-		<attr name="buttonBackgroundColorPressed" format="color|reference" />
-		<attr name="buttonBackgroundColorFocused" format="color|reference" />
-		<attr name="listItemColorNormal" format="color|reference" />
-		<attr name="listItemColorFocused" format="color|reference" />
-		<attr name="listItemColorPressed" format="color|reference" />
-		<attr name="listItemSeparatorColor" format="color|reference" />
+		<attr name="sdlDialogBackground" format="reference" />
+		<attr name="sdlTitleTextColor" format="color|reference" />
+		<attr name="sdlTitleSeparatorColor" format="color|reference" />
+		<attr name="sdlMessageTextColor" format="color|reference" />
+		<attr name="sdlButtonTextColor" format="color|reference" />
+		<attr name="sdlButtonSeparatorColor" format="color|reference" />
+		<attr name="sdlButtonBackgroundColorNormal" format="color|reference" />
+		<attr name="sdlButtonBackgroundColorPressed" format="color|reference" />
+		<attr name="sdlButtonBackgroundColorFocused" format="color|reference" />
+		<attr name="sdlListItemColorNormal" format="color|reference" />
+		<attr name="sdlListItemColorFocused" format="color|reference" />
+		<attr name="sdlListItemColorPressed" format="color|reference" />
+		<attr name="sdlListItemSeparatorColor" format="color|reference" />
 	</declare-styleable>
 
 </resources>

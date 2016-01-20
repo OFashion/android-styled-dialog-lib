@@ -22,35 +22,35 @@
 	</style>
 
 	<style name="DialogStyleDark">
-		<item name="dialogBackground">@drawable/sdl_background_dark</item>
-		<item name="titleTextColor">@color/sdl_title_text_dark</item>
-		<item name="titleSeparatorColor">@color/sdl_title_separator_dark</item>
-		<item name="messageTextColor">@color/sdl_message_text_dark</item>
-		<item name="buttonTextColor">@color/sdl_button_text_dark</item>
-		<item name="buttonSeparatorColor">@color/sdl_button_separator_dark</item>
-		<item name="buttonBackgroundColorNormal">@color/sdl_button_normal_dark</item>
-		<item name="buttonBackgroundColorPressed">@color/sdl_button_pressed_dark</item>
-		<item name="buttonBackgroundColorFocused">@color/sdl_button_focused_dark</item>
-        <item name="listItemColorNormal">@color/sdl_button_normal_dark</item>
-        <item name="listItemColorFocused">@color/sdl_button_focused_dark</item>
-        <item name="listItemColorPressed">@color/sdl_button_pressed_dark</item>
-        <item name="listItemSeparatorColor">@color/sdl_list_item_separator_dark</item>
+		<item name="sdlDialogBackground">@drawable/sdl_background_dark</item>
+		<item name="sdlTitleTextColor">@color/sdl_title_text_dark</item>
+		<item name="sdlTitleSeparatorColor">@color/sdl_title_separator_dark</item>
+		<item name="sdlMessageTextColor">@color/sdl_message_text_dark</item>
+		<item name="sdlButtonTextColor">@color/sdl_button_text_dark</item>
+		<item name="sdlButtonSeparatorColor">@color/sdl_button_separator_dark</item>
+		<item name="sdlButtonBackgroundColorNormal">@color/sdl_button_normal_dark</item>
+		<item name="sdlButtonBackgroundColorPressed">@color/sdl_button_pressed_dark</item>
+		<item name="sdlButtonBackgroundColorFocused">@color/sdl_button_focused_dark</item>
+        <item name="sdlListItemColorNormal">@color/sdl_button_normal_dark</item>
+        <item name="sdlListItemColorFocused">@color/sdl_button_focused_dark</item>
+        <item name="sdlListItemColorPressed">@color/sdl_button_pressed_dark</item>
+        <item name="sdlListItemSeparatorColor">@color/sdl_list_item_separator_dark</item>
 	</style>
 
 	<style name="DialogStyleLight">
-		<item name="dialogBackground">@drawable/sdl_background_light</item>
-		<item name="titleTextColor">@color/sdl_title_text_light</item>
-		<item name="titleSeparatorColor">@color/sdl_title_separator_light</item>
-		<item name="messageTextColor">@color/sdl_message_text_light</item>
-		<item name="buttonTextColor">@color/sdl_button_text_light</item>
-		<item name="buttonSeparatorColor">@color/sdl_button_separator_light</item>
-		<item name="buttonBackgroundColorNormal">@color/sdl_button_normal_light</item>
-		<item name="buttonBackgroundColorPressed">@color/sdl_button_pressed_light</item>
-		<item name="buttonBackgroundColorFocused">@color/sdl_button_focused_light</item>
-        <item name="listItemColorNormal">@color/sdl_button_normal_light</item>
-        <item name="listItemColorFocused">@color/sdl_button_focused_light</item>
-        <item name="listItemColorPressed">@color/sdl_button_pressed_light</item>
-        <item name="listItemSeparatorColor">@color/sdl_list_item_separator_light</item>
+		<item name="sdlDialogBackground">@drawable/sdl_background_light</item>
+		<item name="sdlTitleTextColor">@color/sdl_title_text_light</item>
+		<item name="sdlTitleSeparatorColor">@color/sdl_title_separator_light</item>
+		<item name="sdlMessageTextColor">@color/sdl_message_text_light</item>
+		<item name="sdlButtonTextColor">@color/sdl_button_text_light</item>
+		<item name="sdlButtonSeparatorColor">@color/sdl_button_separator_light</item>
+		<item name="sdlButtonBackgroundColorNormal">@color/sdl_button_normal_light</item>
+		<item name="sdlButtonBackgroundColorPressed">@color/sdl_button_pressed_light</item>
+		<item name="sdlButtonBackgroundColorFocused">@color/sdl_button_focused_light</item>
+        <item name="sdlListItemColorNormal">@color/sdl_button_normal_light</item>
+        <item name="sdlListItemColorFocused">@color/sdl_button_focused_light</item>
+        <item name="sdlListItemColorPressed">@color/sdl_button_pressed_light</item>
+        <item name="sdlListItemSeparatorColor">@color/sdl_list_item_separator_light</item>
 	</style>
 
 	<style name="SDL.Group">

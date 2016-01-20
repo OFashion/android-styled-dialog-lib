@@ -53,7 +53,7 @@ public abstract class BaseDialogFragment extends DialogFragment {
         // custom dialog background
         final TypedArray a = getActivity().getTheme()
                 .obtainStyledAttributes(null, R.styleable.DialogStyle, R.attr.sdlDialogStyle, 0);
-        Drawable dialogBackground = a.getDrawable(R.styleable.DialogStyle_dialogBackground);
+        Drawable dialogBackground = a.getDrawable(R.styleable.DialogStyle_sdlDialogBackground);
         a.recycle();
         dialog.getWindow().setBackgroundDrawable(dialogBackground);
         Bundle args = getArguments();
@@ -330,25 +330,25 @@ public abstract class BaseDialogFragment extends DialogFragment {
                     .obtainStyledAttributes(null, R.styleable.DialogStyle, R.attr.sdlDialogStyle,
                             0);
             mTitleTextColor = a
-                    .getColor(R.styleable.DialogStyle_titleTextColor, defaultTitleTextColor);
-            mTitleSeparatorColor = a.getColor(R.styleable.DialogStyle_titleSeparatorColor,
+                    .getColor(R.styleable.DialogStyle_sdlTitleTextColor, defaultTitleTextColor);
+            mTitleSeparatorColor = a.getColor(R.styleable.DialogStyle_sdlTitleSeparatorColor,
                     defaultTitleSeparatorColor);
             mMessageTextColor = a
-                    .getColor(R.styleable.DialogStyle_messageTextColor, defaultMessageTextColor);
-            mButtonTextColor = a.getColorStateList(R.styleable.DialogStyle_buttonTextColor);
+                    .getColor(R.styleable.DialogStyle_sdlMessageTextColor, defaultMessageTextColor);
+            mButtonTextColor = a.getColorStateList(R.styleable.DialogStyle_sdlButtonTextColor);
             if (mButtonTextColor == null) {
                 mButtonTextColor = defaultButtonTextColor;
             }
-            mButtonSeparatorColor = a.getColor(R.styleable.DialogStyle_buttonSeparatorColor,
+            mButtonSeparatorColor = a.getColor(R.styleable.DialogStyle_sdlButtonSeparatorColor,
                     defaultButtonSeparatorColor);
             mButtonBackgroundColorNormal = a
-                    .getColor(R.styleable.DialogStyle_buttonBackgroundColorNormal,
+                    .getColor(R.styleable.DialogStyle_sdlButtonBackgroundColorNormal,
                             defaultButtonBackgroundColorNormal);
             mButtonBackgroundColorPressed = a
-                    .getColor(R.styleable.DialogStyle_buttonBackgroundColorPressed,
+                    .getColor(R.styleable.DialogStyle_sdlButtonBackgroundColorPressed,
                             defaultButtonBackgroundColorPressed);
             mButtonBackgroundColorFocused = a
-                    .getColor(R.styleable.DialogStyle_buttonBackgroundColorFocused,
+                    .getColor(R.styleable.DialogStyle_sdlButtonBackgroundColorFocused,
                             defaultButtonBackgroundColorFocused);
             if (mListAdapter != null) {
                 final int defaultListItemSeparatorColor = res
@@ -359,16 +359,16 @@ public abstract class BaseDialogFragment extends DialogFragment {
                         .getColor(R.color.sdl_button_focused_dark);
                 final int defaultListItemBackgroundColorPressed = res
                         .getColor(R.color.sdl_button_pressed_dark);
-                mListItemSeparatorColor = a.getColor(R.styleable.DialogStyle_listItemSeparatorColor,
+                mListItemSeparatorColor = a.getColor(R.styleable.DialogStyle_sdlListItemSeparatorColor,
                         defaultListItemSeparatorColor);
                 mListItemBackgroundColorNormal = a
-                        .getColor(R.styleable.DialogStyle_listItemColorNormal,
+                        .getColor(R.styleable.DialogStyle_sdlListItemColorNormal,
                                 defaultListItemBackgroundColorNormal);
                 mListItemBackgroundColorFocused = a
-                        .getColor(R.styleable.DialogStyle_listItemColorFocused,
+                        .getColor(R.styleable.DialogStyle_sdlListItemColorFocused,
                                 defaultListItemBackgroundColorFocused);
                 mListItemBackgroundColorPressed = a
-                        .getColor(R.styleable.DialogStyle_listItemColorPressed,
+                        .getColor(R.styleable.DialogStyle_sdlListItemColorPressed,
                                 defaultListItemBackgroundColorPressed);
             }
             a.recycle();
