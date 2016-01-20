@@ -1,19 +1,4 @@
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-
-    dependencies {
-        classpath 'com.android.tools.build:gradle:1.5.0'
-    }
-}
-
 apply plugin: 'com.android.library'
-
-repositories {
-    mavenCentral()
-}
-
 android {
     compileSdkVersion Integer.parseInt(COMPILE_SDK)
     buildToolsVersion BUILD_TOOLS_VERSION
